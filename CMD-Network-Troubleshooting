@@ -1,0 +1,20 @@
+You can check your network information using ipconfig. The terminal output below shows our IP address, subnet mask, and default gateway.
+
+You can also use ipconfig /all for more information about your network configuration. As shown in the terminal below, we can view our DNS servers and confirm that DHCP is enabled.
+
+Another valuable tool for troubleshooting is tracert, which stands for trace route. The command tracert target_name traces the network route traversed to reach the target. 
+Without getting into more details, it expects the routers on the path to notify us if they drop a packet because its time-to-live (TTL) has reached zero. 
+The terminal output below shows that we passed through 15 routers before reaching our target.
+
+One networking command worth knowing is nslookup. It looks up a host or domain and returns its IP address. The syntax nslookup example.com
+
+This command displays current network connections and listening ports. A basic netstat
+
+If you are curious about the other options, you can run netstat -h, where -h displays the help page. We opted for the following options:
+
+    -a displays all established connections and listening ports
+    -b shows the program associated with each listening port and established connection
+    -o reveals the process ID (PID) associated with the connection
+    -n uses a numerical form for addresses and port numbers
+
+

@@ -19,5 +19,8 @@ delete a file using del or erase.
 
 use the wildcard character * to refer to multiple files. For example, copy *.md C:\Markdown will copy all files with the extension md to the directory C:\Markdown.
 
-You are working with the command line. You are curious about the contents of a particular text file. You can easily view text files with the command type. This command will dump the contents of the text file on the screen; this is convenient for files that fit within your terminal window. You might want to consider more for longer text files. This command will display enough text file contents to fill your terminal window. In other words, for long text files, more will display a single page and wait for you to press Spacebar to move by one page (flip the page) or Enter to move by one line.
+You are working with the command line. You are curious about the contents of a particular text file. You can easily view text files with the command type. This command will dump the contents of the text file on the screen; this is convenient for
+files that fit within your terminal window. You might want to consider more for longer text files. This command will display enough text file contents to fill your terminal window. In other words, for long text files, more will display a single page and wait for you to press Spacebar to move by one page (flip the page) or Enter to move by one line.
 
+Display text files: more file.txt
+Pipe long output to view it page by page: some_command | more

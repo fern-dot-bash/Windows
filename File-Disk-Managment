@@ -1,0 +1,20 @@
+Working With Directories
+
+You can use cd without parameters to display the current drive and directory. It is the equivalent of asking the system, where am I?
+
+You can view the child directories using dir.
+
+Note that you can use the following options with dir:
+
+    dir /a - Displays hidden and system files as well.
+    dir /s - Displays files in the current directory and all subdirectories.
+
+You can type tree to visually represent the child directories and subdirectories.
+
+You can change to any directory by using the command cd target_directory; this is equivalent to double-clicking the target_directory on your desktop. Furthermore, you can use cd .. to go up one level. An example is shown in the terminal output below.
+
+To create a directory, use mkdir directory_name; mkdir stands for make directory. To delete a directory, use rmdir directory_name; rmdir stands for remove directory. The terminal output below shows creating and deleting a directory.
+
+delete a file using del or erase.
+
+use the wildcard character * to refer to multiple files. For example, copy *.md C:\Markdown will copy all files with the extension md to the directory C:\Markdown.

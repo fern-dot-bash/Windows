@@ -1,0 +1,6 @@
+Tasklist
+
+tasklist /?. Let’s say that we want to search for tasks related to sshd.exe, we can do that with the command tasklist /FI "imagename eq sshd.exe". Note that /FI 
+is used to set the filter image name equals sshd.exe.
+
+terminate any task using taskkill /PID target_pid. For example, if we want to kill the process with PID 4567, we would issue the command taskkill /PID 4567

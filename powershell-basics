@@ -1,0 +1,19 @@
+Get-Command -CommandType "Function" : To list all available cmdlets, functions, aliases, and scripts that can be executed in the current PowerShell session  
+
+Get-Help : it provides detailed information about cmdlets, including usage, parameters, and examples
+
+Get-Alias : lists all aliases available
+
+Find-Module -Name "PowerShell*"
+
+Install-Module -Name "PowerShellGet" : Once identified, the modules can be downloaded and installed from the repository with Install-Module
+
+Get-ChildItem : Dir check the alias
+
+set-location = cd : To navigate to a different directory,
+
+New-Item -Path ".\captain-cabin\captain-wardrobe" -ItemType "Directory" : Create a new item called captain-wardrobe thats a directory
+
+Get-Content -Path ".\captain-hat.txt" : display content of the file
+
+Windows powershell tryhackme
